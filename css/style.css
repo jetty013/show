@@ -139,10 +139,14 @@ a{
     background: url("../images/icon.png") no-repeat 86px  17px;
 }
 .login-word{
+    color:#666;
     font-size: 14px;
     height: 76px;
     padding: 0 14px 0 0;
     line-height: 76px;
+}
+.login-word:hover{
+    color:#ff571a;
 }
 .header.normal{
     position:relative;
@@ -295,6 +299,7 @@ a{
     padding: 0 20px 0 24px;
 }
 .qujian a{
+    color:#666;
     display: inline-block;
     padding: 7px 0 0 10px;
 }
@@ -352,6 +357,7 @@ a{
     color:rgb(68, 68, 68);
 }
 .content .container a p{
+    color: #666;
     margin-top:16px;
     font-size:14px;
 }
@@ -423,7 +429,7 @@ a{
     display: block;
     font-size: 14px;
     color:#ff581a;
-    padding: 20px 0 10px 0;
+    /*padding: 20px 0 10px 0;*/
 }
 .part02{
     padding: 0 0 0 34px;
@@ -459,7 +465,7 @@ a{
     display: block;
     font-size: 14px;
     color:#ff581a;
-    padding: 20px 0 10px 0;
+    /*padding: 20px 0 10px 0;*/
 }
 /*侧边栏*/
 .fixedNav{
@@ -506,13 +512,41 @@ a{
     width:16px;
     height:16px;
     background-size:0;
-    background-color:black;
+    /*background-color:black;*/
+}
+.fixedNav .anchor .favor{
+    background: url("../images/index_sprite_v2.png") no-repeat;
+}
+.fixedNav .anchor .favor:hover{
+    background: url("../images/index_sprite_v2.png") no-repeat 0px -20px;
+}
+.fixedNav .anchor .consult{
+    background: url("../images/index_sprite_v2.png") no-repeat -20px 0px;
+}
+.fixedNav .anchor .consult:hover{
+    background: url("../images/index_sprite_v2.png") no-repeat -20px -20px;
+}
+.fixedNav .anchor .sell{
+    width: 18px;
+    height: 18px;
+    background: url("../images/index_sprite_v2.png") no-repeat -40px -40px;
+}
+.fixedNav .anchor .sell:hover{
+    width: 18px;
+    height: 18px;
+    background: url("../images/index_sprite_v2.png") no-repeat -40px -60px;
+}
+.fixedNav .anchor .feedback{
+    background: url("../images/index_sprite_v2.png") no-repeat -80px 0px;
+}
+.fixedNav .anchor .feedback:hover{
+    background: url("../images/index_sprite_v2.png") no-repeat -80px -20px;
 }
 .fixedNav .anchor span{
     margin-left:16px;
     display:block;
     width:24px;
-    height:12px;
+    height:14px;
     overflow:hidden;
 }
 .btnTop{
@@ -541,6 +575,12 @@ a{
 .footer_part01{
     margin-bottom: 30px;
     /*margin-left: 50px;*/
+}
+.footer_part01 a:hover{
+    text-decoration:underline;
+}
+.footer_part02 a:hover{
+    color: #ff571a;
 }
 .shoppers{
     float: left;
@@ -662,7 +702,9 @@ a{
     font-size: 12px;
     font-weight: normal;
 }
-
+.pd_title a{
+    color: #333;
+}
 .pd_pinpai ul li{
     float: left;
     display: inline;
@@ -869,6 +911,7 @@ a{
     display:block;
     height: 40px;
     line-height: 40px;
+    color: #333;
 }
 .conditions_left{
     float: left;
@@ -1008,6 +1051,7 @@ a{
     border-top:1px solid rgb(230, 230, 230);
 }
 .pd_right .bottom .container .box .detail .mark em{
+    font-style: normal;
     padding:0 3px;
     background-color:rgb(96, 178, 94);
     font-size:12px;
@@ -1040,9 +1084,31 @@ a{
     line-height: 30px;
     color: rgb(170, 170, 170);
 }
-.products_content{
-    padding-bottom: 235px;
+.page_number{
+    margin-top: 50px;
+    text-align: center;
 }
+.jq_nymber{
+    display: inline-block;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    color: #666;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    /*font-family: Arial;*/
+}
+.jq_nymber:hover{
+    color: #fff;
+    background: #ff581a;
+}
+.products_content{
+    padding-bottom: 145px;
+}
+
 /*二手车问题页面编辑*/
 .problems_content{
     width: 100%;
@@ -1195,3 +1261,4 @@ a{
 .brand-item {
     margin-bottom: 20px;
 }
+/*车系大全页面编辑*/

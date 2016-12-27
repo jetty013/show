@@ -21,8 +21,8 @@
             </div>
             <div class="menu clear">
                 <ul>
-                    <li class="bigger"><a href="" class="bigger-a first">首页</a></li>
-                    <li class="bigger"><a href="" class="bigger-a">我要买车</a></li>
+                    <li class="bigger"><a href="index.html" class="bigger-a">首页</a></li>
+                    <li class="bigger"><a href="products.html" class="bigger-a">我要买车</a></li>
                     <li class="bigger"><a href="" class="bigger-a">我要卖车</a></li>
                     <li class="bigger"><a href="" class="bigger-a">商家服务</a></li>
                     <li class="bigger"><a href=""class="bigger-a">关于我们</a></li>
@@ -75,24 +75,43 @@
         </div>
     </div>
 
-
+    <div class="fixedNav">
+        <div>我的车库</div>
+        <a class="anchor">
+            <i class="icon favor"></i>
+            <span>关注的车</span>
+        </a>
+        <a class="anchor">
+            <i class="icon consult"></i>
+            <span>咨询的车</span>
+        </a>
+        <a class="anchor">
+            <i class="icon sell"></i>
+            <span>估价卖车</span>
+        </a>
+        <a class="anchor">
+            <i class="icon feedback"></i>
+            <span>反馈信息</span>
+        </a>
+    </div>
+    <a class="btnTop" id="top">TOP</a>
     <div class="footer">
         <div class="rim">
             <div class="footer_part01 clear">
                 <div class="shoppers">
                     <ul>
                         <li class="footer_title">导购大全</li>
-                        <li><a href="" class="footer_a">城市大全</a></li>
-                        <li><a href="" class="footer_a">品牌大全</a></li>
-                        <li><a href="" class="footer_a">车系大全</a></li>
+                        <li><a href="city.html" class="footer_a">城市大全</a></li>
+                        <li><a href="cars.html" class="footer_a">品牌大全</a></li>
+                        <li><a href="combine.html" class="footer_a">车系大全</a></li>
                     </ul>
                 </div>
                 <div class="buy_car">
                     <ul>
                         <li class="footer_title">购车指南</li>
-                        <li><a href="" class="footer_a">如何挑选二手车</a></li>
-                        <li><a href="" class="footer_a">如何判断事故火烧水浸车</a></li>
-                        <li><a href="" class="footer_a">二手车指标说明</a></li>
+                        <li><a href="choose.html" class="footer_a">如何挑选二手车</a></li>
+                        <li><a href="judement.html" class="footer_a">如何判断事故火烧水浸车</a></li>
+                        <li><a href="problems.html class="footer_a">二手车指标说明</a></li>
                     </ul>
                 </div>
                 <div class="about_us">
@@ -176,5 +195,10 @@
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById("top").onclick = function(){
+            scrollTo(0, 0);
+        };
+    </script>
 </body>
 </html>
