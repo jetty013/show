@@ -565,6 +565,7 @@ a{
 }
 .footer{
     width: 100%;
+    min-width: 1200px;
     /*height: 336px;*/
     background: #1f1f1f;
     padding:33px 0 30px 0;
@@ -1009,7 +1010,8 @@ a{
     height:320px;
     /*background-image: 240px 160px;*/
     background-repeat:no-repeat;
-    background-size:100% 160px;
+    background-size:240px 160px;
+    /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/image/xxx.jpg', sizingMethod='scale');*/
 }
 .pd_right .bottom .container .box .detail{
     position:absolute;
@@ -1221,7 +1223,17 @@ a{
     color: #666;
     margin-right: 10px;
 }
+.city_link a:hover{
+    color: #ff571a;
+}
 /*cars页面编辑*/
+.combine_inner h1{
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+}
 .cars_rim h1{
     font-size: 20px;
     color: #333;
@@ -1262,3 +1274,37 @@ a{
     margin-bottom: 20px;
 }
 /*车系大全页面编辑*/
+.set-wrap {
+    display: block;
+    margin-top: 30px;
+    min-width: 1200px;
+}
+.type-item {
+    margin-bottom: 20px;
+}
+.set-box {
+    float: left;
+    margin-left: 30px;
+    width: 1000px;
+}
+.set-car {
+    float: left;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #666;
+}
+.type-cont {
+    float: left;
+    margin-bottom: 10px;
+}
+.type-cont a {
+    font-size: 14px;
+    margin-right: 15px;
+    color: #666;
+    line-height: 30px;
+}
+.type-cont a:hover{
+    color: #ff571a;
+}
